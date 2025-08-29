@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 15px;
+  background: purple;
+  border-radius: 6px;
+}
+
+.nav a:hover {
+  background: darkviolet;
+}
+
+/* Botón CTA */
+.cta {
+  display: inline-block;
+  background: purple;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+.cta:hover {
+  background: darkviolet;
+}
+
+/* Auspiciantes */
+.auspiciantes {
+  padding: 40px 20px;
+}
+
+.auspiciantes h2 {
+  margin-bottom: 20px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.logos img {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Stream */
+.stream {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.stream .personajes {
+  max-width: 200px;
+}
+
+.stream .detalle {
+  max-width: 400px;
+  text-align: left;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+}
+
+.footer-bg {
+  background: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/02/guia-todos-trucos-consejos-minecraft.jpg?tf=1920x") repeat;
+  padding: 20px;
+  color: #fff;
+}
